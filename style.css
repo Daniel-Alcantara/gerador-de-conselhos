@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+*{
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+}
+body{
+  margin: 0px;
+  border: 0px;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color: #202632;
+  position: absolute;
+}
+.body_container{
+  width: 30%;
+  margin: 0px auto;
+  margin-top: 15rem;
+  text-align: center;
+  background-color: #313a49;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.container_numero{
+  color: #5ae3ab;
+  margin-bottom: 2rem;
+  letter-spacing: 5px;
+}
+.container_frase p{
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+.container_line{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.button_gender{
+  cursor: pointer;
+}
+.button_gender svg{
+  background-color: #54ffaa;
+  padding: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 48.4%;
+}
